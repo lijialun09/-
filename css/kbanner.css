@@ -1,0 +1,76 @@
+.kbanner{
+    display: flex;
+}
+.kbanner .banner{
+	/*width: 50%;*/
+	height: 580px;
+	flex: 1;
+	background-color: #fafafa;
+	
+}
+.kbanner h1{
+	color:  rgb(207, 203, 203);
+	font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 52px;
+}
+.kbanner h2{
+	font-size: 21px;
+    line-height: 1.2381;
+    font-weight: 400;
+    letter-spacing: .016em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 4px;
+    color: rgb(207, 203, 203);
+}
+.kbanner .banner .link a{
+	color: #0070c9;
+	font-size: 17px;
+    line-height: 1.23543;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.kbanner .banner:nth-child(1){
+	margin: 10px 5px 10px 10px;
+	background-image: url(../img/kbanner2.jpg);
+	background-size: auto 120%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.kbanner .banner:nth-child(2){
+	margin: 10px 5px 10px 10px;
+	background-image: url(../img/kbanner1.jpg);
+	background-size: auto 120%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.kbanner .banner{
+	padding: 0;
+	
+}
+
+@media only screen and (max-width:1100px ) {
+	.banner{
+		height:595px;
+	}
+}
+@media only screen and (max-width:740px ) {
+	.banner{
+		height:445px;
+        background-size: 79%;
+        width: 375px;
+	}
+	.kbanner{
+		height: 1020px;
+        flex-direction: column;
+        width: 375px;
+	}
+	.kbanner .banner:nth-child(1),.kbanner .banner:nth-child(2){
+		width: calc(100% - 20px);
+		/* margin: 9px; */
+	}
+}

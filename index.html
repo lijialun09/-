@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/banner.css"/>
+		<link rel="stylesheet" type="text/css" href="css/hbanner.css"/>
+		<link rel="stylesheet" type="text/css" href="css/jbanner.css"/>
+		<link rel="stylesheet" type="text/css" href="css/kbanner.css"/>
+		<link rel="stylesheet" type="text/css" href="css/mtop.css"/>
+	</head>
+	<body>
+		<!--
+			0、分析页面结构
+			1、先写html结构
+			2、在写样式
+			注意：分析页面是否包含移动端，如包含移动端一定要加上meta viewport
+		-->
+		<div class="nav">
+			<a href="" class="logo"></a>
+			<a href="" class="text">MAC</a>
+			<a href="" class="text">IPAD</a>
+			<a href="" class="text">IPHONE</a>
+			<a href="" class="text">WATCH</a>
+			<a href="" class="text">TV</a>
+			<a href="" class="text">MUSIC</a>
+			<a href="" class="text">SUPPORT</a>
+			<a href="" class="search"></a>
+			<a href="" class="buy"></a>
+			<input hidden="hidden" type="checkbox" name="choose" id="choose" value="" />
+			<label for="choose" class="toggleBtn">
+				<span class="line"></span>
+				<span class="line"></span>
+			</label>
+			<!--
+				快捷方式：div.navpage>.navMain>(.searchInput+.navList>(a.navText)*7)
+			-->
+			<div class="navpage">
+				<div class="navMain">
+					<div class="searchInput">
+						<div class="icon"></div>
+						<input type="text" placeholder="search apple.com" />
+					</div>
+					<hr />
+					<div class="navList">
+						<a href="" class="navText">MAC</a>
+						<a href="" class="navText">IPAD</a>
+						<a href="" class="navText">IPHONE</a>
+						<a href="" class="navText">WATCH</a>
+						<a href="" class="navText">TV</a>
+						<a href="" class="navText">MUSIC</a>
+						<a href="" class="navText">SUPORT</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--快捷方式：.banner>(h1+h2+p+(.link>(a*2)))-->
+		<div class="banner">
+			<h1>iPhone 11 Pro</h1>
+			<h2>Pro cameras. Pro display. Pro performance.</h2>
+			<p>From $24.95/mo. or $599 with trade‑in.</p>
+			<div class="link"><a href="">Learn more</a>  <span>></span><a href="">Buy</a><span>></span></div>
+		</div>
+		
+		
+		<div class="hbanner">
+			<div class="banner">
+				<h1>iPhone 11 Pro</h1>
+				<h2>Pro cameras. Pro display. Pro performance.</h2>
+				
+				<div class="link"><a href="">Learn more</a>  <span>></span></div>
+			</div>
+			<div class="banner">
+				<h1>iPhone 11 Pro</h1>
+				<h2>Pro cameras. Pro display. Pro performance.</h2>
+				
+				<div class="link"><a href="">Learn more</a>  <span>></span></div>
+			</div>
+		</div>
+		<div class="jbanner">
+			<div class="banner">
+				<h1>AirPods Pro</h1>
+				<h2>秒得不同凡响。</h2>
+				<div class="link"><a href="">Learn more</a><span>></span></div>
+			</div>
+			<div class="banner">
+				<h1>MacBook Air</h1>
+				<h2>实力来得轻巧。</h2>
+				<div class="link"><a href="">Learn more</a><span>></span></div>
+			</div>
+		</div>
+		<div class="kbanner">
+			<div class="banner">
+				<h1>HomePod mini</h1>
+				<h2>秒得不同凡响。</h2>
+				<div class="link"><a href="">Learn more</a><span>></span></div>
+			</div>
+			<div class="banner">
+				<h1>MacBook pro</h1>
+				<h2>一pro到位。</h2>
+				<div class="link"><a href="">Learn more</a><span>></span></div>
+			</div>
+		</div>
+		<div class="mtop">
+			<div class="top-wb">
+				<ol>
+					<li>上述所示分期付款金额仅为使用特定期数免息分期付款估算得出的示例（仅显示整数数额，未显示小数点以后的金额)，实际支付金额以银行或花呗账单为准。最高可享 24 期免息分期，到 Apple Store 零售店和在线商店购买时可享受的免息分期期数和最低限额可能有所不同，银行和花呗提供的免息分期期数和最低限额可能有所不同。实际折抵金额取决于设备的状况、配置、制造年份，以及发售国家或地区。银行或花呗可能要求你的可用信用额度大于所购买产品的总金额，才能使用分期付款服务。有关信用卡或花呗分期服务的申请及使用问题，请与银行或花呗联系，Apple 对此不做任何承诺和保证。Apple 的折抵换购服务为 Apple 与 Apple 折抵服务合作伙伴共同推出，年满 18 周岁及以上者才能享受此项折抵换购服务。店内折抵换购需出示政府颁发并附有照片的有效身份证件 (当地法律可能会要求存储该信息)。可能需要遵守 Apple 或 Apple 折抵服务合作伙伴的其他条款。本折抵换购服务不能与 Apple 的其他优惠或折扣活动同时使用。如需了解更多免息分期付款信息，请点击<a href="">此处</a></li>
+				</ol>
+			</div>
+			<div class="top-xx">
+				<div class="item">
+					<h3>选购及了解</h3>
+					<ul>
+						<li><a href="">iphone</a></li>
+						<li><a href="">iphone</a></li>
+						<li><a href="">iphone</a></li>
+						<li><a href="">iphone</a></li>
+						<li><a href="">iphone</a></li>
+					</ul>
+				</div>
+				<div class="item">
+					<h3>服务</h3>
+					<ul>
+						<li><a href="">iphone</a></li>
+						<li><a href="">iphone</a></li>
+						<li><a href="">iphone</a></li>
+						<li><a href="">iphone</a></li>
+						<li><a href="">iphone</a></li>
+					</ul>
+				</div>
+				<div class="item">
+					<h3>APP Store商店</h3>
+					<ul>
+						<li><a href="">iphone</a></li>
+						<li><a href="">iphone</a></li>
+						<li><a href="">iphone</a></li>
+						<li><a href="">iphone</a></li>
+						<li><a href="">iphone</a></li>
+					</ul>
+				</div>
+				<div class="item">
+					<h3>商务应用</h3>
+					<ul>
+						<li><a href="">iphone</a></li>
+						<li><a href="">iphone</a></li>
+						<li><a href="">iphone</a></li>
+						<li><a href="">iphone</a></li>
+						<li><a href="">iphone</a></li>
+					</ul>
+				</div>
+				<div class="item">
+					<h3>Apple价值观</h3>
+					<ul>
+						<li><a href="">iphone</a></li>
+						<li><a href="">iphone</a></li>
+						<li><a href="">iphone</a></li>
+						<li><a href="">iphone</a></li>
+						<li><a href="">iphone</a></li>
+					</ul>
+				</div>
+				<div class="mtext">
+					<p>更多选购方式：<a href="">查找你附近的 Apple Store 零售店</a>及<a href="">更多门店</a>，或者致电 400-666-8800</p>
+				</div>
+				
+			</div>
+			<div class="top-bottom">
+				<div class="quanli">
+					<div class="left">Copyright © 2021 Apple Inc. 保留所有权利。</div>
+					<div class="right">
+						<span>隐私政策</span>
+						<span>使用条款</span>
+						<span>销售政策</span>
+						<span>法律信息</span>
+						<span>网站地图</span>
+					</div>
+				</div>
+				<div class="beian">京ICP备10214630 营业执照 无线电发射设备销售备案编号11201910351200</div>
+			</div>
+		</div>
+	</body>
+</html>
